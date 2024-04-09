@@ -25,7 +25,7 @@ void main(List<String> args) {
     print(nome);
      }
   }
-  //2 - Apresente quantos pacientes existem para cada profissão (desenvolvedor, estudante)
+  //2 - Apresente quantos pacientes existem para cada profissão (desenvolvedor, estudante, dentista e jornalista)
   print("\nQuantidade de pacientes por profissão ");
   var contadorProfissoes = Map<String, int>();
   for(var paciente in pacientes){
